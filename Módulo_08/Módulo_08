@@ -1,0 +1,8 @@
+
+contadorPreferencial = 0;
+contadorNormal = 0;
+
+function gerarSenha(prefixo, contadorAtual){
+    const numero = contadorAtual + 1;
+    const numeroFormatado = String(numero).padStart(3, '0');
+}
